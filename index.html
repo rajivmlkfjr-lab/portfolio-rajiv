@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- 1. Elemen dasar: html, head, body -->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi - Rajiv Malik Fajar</title>
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- 2 & 3. Heading + Style (warna dan ukuran lewat atribut style) -->
+        <h1 class="text-center" style="color: #1f4e79; font-size: 40px;">Portofolio Pribadi</h1>
+
+        <!-- 7. Image: gambar profil dengan width dan height -->
+        <div class="text-center">
+            <img src="profil.jpg" alt="Foto profil Rajiv Malik Fajar" width="180" height="180">
+        </div>
+
+        <!-- Tentang Saya -->
+        <h2 class="text-center" style="color: #c0392b;">Tentang Saya</h2>
+
+        <!-- 5. Formatting: strong dan em -->
+        <p class="text-center">
+            Halo, saya <strong>Rajiv Malik Fajar</strong>, mahasiswa
+            <strong>Informatika</strong> di Universitas Sebelas April (UNSAP).
+            Saya <em>suka belajar</em> pemrograman web dan aktif di organisasi kampus.
+        </p>
+
+        <!-- 4. Quoting: kutipan dari orang lain tentang saya -->
+        <blockquote class="text-center" cite="https://example.com">
+            "Rajiv orangnya tekun dan mudah diajak kerja sama dalam tim."
+            <br>
+            &mdash; Teman satu organisasi
+        </blockquote>
+
+        <!-- 9. Table: pengalaman organisasi/kerja -->
+        <h2 class="text-center" style="color: #c0392b;">Pengalaman</h2>
+        <table>
+            <tr>
+                <th>Posisi</th>
+                <th>Organisasi</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>Humas</td>
+                <td>BPM Universitas 11 April</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td>Divisi Humas</td>
+                <td>Hima FTI</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td>Ketua Bidang Humas</td>
+                <td>UKM Kajian Islam (Kajis)</td>
+                <td>2026</td>
+            </tr>
+        </table>
+
+        <!-- 10. List: ul (tidak terurut) dan ol (terurut) -->
+        <h2 class="text-center" style="color: #c0392b;">Hobi Saya</h2>
+        <ul>
+            <li>Olahraga serta bermain game</li>
+            <li>Berorganisasi</li>
+            <li>mencari pengalaman baru dan belajar hal hal yang menurut saya seru yang belum saya punyai atau ketahui</li>
+        </ul>
+
+        <h2 class="text-center" style="color: #c0392b;">Target Belajar</h2>
+        <ol>
+            <li>Menguasai HTML dan CSS</li>
+            <li>Belajar framework Laravel</li>
+            <li>Membuat proyek IoT dengan ESP32</li>
+        </ol>
+
+        <!-- 11. Audio: pemutar lagu favorit -->
+        <h2 class="text-center" style="color: #c0392b;">Lagu Favorit</h2>
+
+<!-- Klip di atas lagu -->
+<p class="text-center">
+    <video width="480" controls muted loop>
+        <source src="Klip Video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+    </video>
+</p>
+
+<p class="text-center">
+    <audio controls>
+        <source src="Music Video.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung pemutar audio.
+    </audio>
+</p>
+       <iframe width="560" height="315"
+    src="https://youtu.be/lW_OvzFmv4Q?si=Fsg_m5a_Tr90p2AS"
+    title="Video karya saya"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+
+        <!-- 8. Link ke media sosial -->
+        <h2 class="text-center" style="color: #c0392b;">Ikuti Saya</h2>
+<div class="sosmed">
+    <a class="ig" href="https://www.instagram.com/rajivm.f?obrf=dHB0bmpmb21xc3I4" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+    <a class="li" href="https://www.linkedin.com/in/rajiv-malik-fajar-a4523139a" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+    <a class="yt" href="http://www.youtube.com/@rajivmlkfjr1273" target="_blank">
+        <i class="fa-brands fa-youtube"></i> YouTube
+    </a>
+    <a class="gh" href="https://github.com/rajivmlkfjr-lab" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub
+    </a>
+</div>
+</body>
+</html>
